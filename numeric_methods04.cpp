@@ -86,7 +86,6 @@ Answer Middle(const Interval& I) {
 	return { (J_l.J + J_r.J) / 2, J_l.R };
 }
 
-#include "Header.h"
 ostream& operator<< (ostream& output, Answer& answer) {
 	output << "result: J = " << answer.J << endl;
 	output << "Die Deutlichkeit: R = " << answer.R << endl;
